@@ -663,10 +663,3 @@ insertImage(wb, "Graphs", file = paste0(file_id, "_proportions_Wales.png"), star
 
 
 saveWorkbook(wb, name_of_output, overwrite = TRUE) # Save the excel file
-
-
-# Look at custom headers 
-
-# Look at making this fully automatic (does each file one after the other) # Done
-
-# If time you could probably modify the full pipe code to work with df_wide by generalising the total row calculations
